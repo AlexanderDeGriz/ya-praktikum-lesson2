@@ -28,3 +28,5 @@ use somedb
 db.helloDoc.countDocuments()
 
   В сумме на двух шардах их должно быть 1000
+
+7. После использования проекта гасим сервисы командой "docker compose down -v"
